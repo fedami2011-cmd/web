@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexGen | متجر الحواسيب وقطع الكمبيوتر</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23050a15'/><path d='M16 6 L26 12 L26 20 L16 26 L6 20 L6 12 Z' fill='none' stroke='%2300f2ff' stroke-width='1.5'/><text x='16' y='21' font-size='12' font-weight='bold' fill='%2300f2ff' text-anchor='middle' font-family='Arial'>N</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-inner">
+      <span>توصيل مجاني للطلبات فوق 50,000 DA</span>
+      <span class="dot">|</span>
+      <span>الدفع عند الاستلام</span>
+      <span class="dot">|</span>
+      <span>ضمان حقيقي حتى سنتين</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header id="header">
+    <div class="header-inner">
+      <div class="header-left">
+        <a href="#" class="logo">Nex<span class="accent">Gen</span></a>
+      </div>
+      <div class="header-center">
+        <div class="search-wrapper">
+          <input type="text" class="search-input" placeholder="ابحث عن منتج..." aria-label="بحث">
+          <span class="search-key">/</span>
+        </div>
+      </div>
+      <nav class="header-nav">
+        <a href="#categories">الأقسام</a>
+        <a href="#products">المنتجات</a>
+        <a href="#builds">التجميعات</a>
+      </nav>
+      <div class="header-right">
+        <button class="hamburger" aria-label="القائمة">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Overlay -->
+  <div class="mobile-overlay">
+    <div class="mobile-overlay-header">
+      <span class="logo">Nex<span class="accent">Gen</span></span>
+      <button class="mobile-close" aria-label="إغلاق">&times;</button>
+    </div>
+    <nav class="mobile-nav">
+      <a href="#categories"><span class="nav-num">01</span> الأقسام</a>
+      <a href="#products"><span class="nav-num">02</span> المنتجات</a>
+      <a href="#builds"><span class="nav-num">03</span> التجميعات</a>
+      <a href="#values"><span class="nav-num">04</span> لماذا نحن</a>
+    </nav>
+    <div class="mobile-overlay-footer">
+      <a href="https://wa.me/213659843187" target="_blank" rel="noopener" class="btn-primary">تواصل عبر واتساب</a>
+    </div>
+  </div>
+  <div class="overlay-backdrop"></div>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">أحدث الإصدارات</div>
+        <h1 class="hero-title">
+          الأداء الأقصى<br>
+          <span class="hero-title-accent">لهويتك الرقمية</span>
+        </h1>
+        <p class="hero-desc">
+          أقوى حواسيب القيمنق، أحدث كروت الشاشة، وأرقى الملحقات — كل ما تحتاجه بأفضل الأسعار في الجزائر.
+        </p>
+        <div class="hero-cta">
+          <a href="#products" class="btn-primary">تصفح المخزون</a>
+          <a href="https://wa.me/213659843187" target="_blank" rel="noopener" class="btn-outline">استشارة مجانية</a>
+        </div>
+        <div class="hero-stats">
+          <div><span class="stat-num">500+</span><span class="stat-label">عميل</span></div>
+          <div><span class="stat-num">58</span><span class="stat-label">ولاية</span></div>
+          <div><span class="stat-num">98%</span><span class="stat-label">رضا</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-glow"></div>
+        <img src="https://placehold.co/600x400/0d172e/00f2ff?text=ROG+Gaming+Laptop&font=raleway" alt="Gaming Laptop" class="hero-img" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section id="categories" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-sup">الأقسام</span>
+        <h2 class="section-title">اختر <span class="accent">فئتك</span></h2>
+      </div>
+      <div class="categories-grid">
+        <a href="#" class="cat-card">
+          <div class="cat-icon">
+            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><rect x="2" y="4" width="22" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M9 23H17" stroke="currentColor" stroke-width="1.5"/><path d="M13 20V23" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>حواسيب محمولة</h3>
+          <p>ASUS ROG، Lenovo Legion، MSI — أحدث المواصفات</p>
+          <span class="cat-arrow">&larr;</span>
+        </a>
+        <a href="#" class="cat-card">
+          <div class="cat-icon">
+            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><rect x="3" y="5" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="13" cy="13" r="4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>كروت شاشة ومعالجات</h3>
+          <p>RTX 4080 Super، AMD Ryzen 9، Intel Ultra</p>
+          <span class="cat-arrow">&larr;</span>
+        </a>
+        <a href="#" class="cat-card">
+          <div class="cat-icon">
+            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><rect x="2" y="7" width="22" height="15" rx="2" stroke="currentColor" stroke-width="1.5"/><rect x="6" y="3" width="14" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>تجميعات جاهزة</h3>
+          <p>أجهزة مجمعة بعناية — أداء عالٍ وسعر مناسب</p>
+          <span class="cat-arrow">&larr;</span>
+        </a>
+        <a href="#" class="cat-card">
+          <div class="cat-icon">
+            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><rect x="2" y="4" width="22" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="13" cy="13" r="2" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>شاشات وملحقات</h3>
+          <p>OLED 240Hz، كيبورد ميكانيكي، ماوس احترافي</p>
+          <span class="cat-arrow">&larr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-sup">المخزون</span>
+        <h2 class="section-title">منتجات <span class="accent">مميزة</span></h2>
+      </div>
+      <div class="products-grid" id="products-grid"></div>
+      <div class="filter-empty" id="filter-empty">
+        <p>لا توجد نتائج تطابق بحثك</p>
+        <span>جرب: لابتوب، كرت شاشة، رايزن، ماوس...</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Builds -->
+  <section id="builds" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-sup">التجميعات</span>
+        <h2 class="section-title">أجهزة <span class="accent">جاهزة</span></h2>
+      </div>
+      <div class="builds-grid">
+        <div class="build-card">
+          <div class="build-tier premium">Premium</div>
+          <img src="https://placehold.co/500x280/0d172e/00f2ff?text=Flagship+PC+Build&font=raleway" alt="Flagship Build" class="build-img" loading="lazy">
+          <div class="build-body">
+            <h3>تجميعة الدرجة الأولى</h3>
+            <ul class="build-specs">
+              <li>AMD Ryzen 9 7950X3D</li>
+              <li>NVIDIA RTX 4090 24GB</li>
+              <li>64GB DDR5 6000MHz</li>
+              <li>2TB NVMe Gen5</li>
+            </ul>
+            <div class="build-price">350,000 DA</div>
+            <a href="https://wa.me/213659843187?text=%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AA%D8%AC%D9%85%D9%8A%D8%B9%D8%A9%20%D8%A7%D9%84%D8%AF%D8%B1%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89" target="_blank" rel="noopener" class="btn-primary">طلب سريع عبر واتساب</a>
+          </div>
+        </div>
+        <div class="build-card">
+          <div class="build-tier value">Value</div>
+          <img src="https://placehold.co/500x280/0d172e/00f2ff?text=Budget+PC+Build&font=raleway" alt="Budget Build" class="build-img" loading="lazy">
+          <div class="build-body">
+            <h3>تجميعة اقتصادية</h3>
+            <ul class="build-specs">
+              <li>AMD Ryzen 5 7600</li>
+              <li>NVIDIA RTX 4060 Ti 8GB</li>
+              <li>16GB DDR5 6000MHz</li>
+              <li>1TB NVMe Gen4</li>
+            </ul>
+            <div class="build-price">110,000 DA</div>
+            <a href="https://wa.me/213659843187?text=%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AA%D8%AC%D9%85%D9%8A%D8%B9%D8%A9%20%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A%D8%A9" target="_blank" rel="noopener" class="btn-primary">طلب سريع عبر واتساب</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section id="values" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-sup">لماذا NexGen</span>
+        <h2 class="section-title">نضع ثقتك <span class="accent">في المقدمة</span></h2>
+      </div>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M15 3L18 12L27 12L20 18L23 27L15 21L7 27L10 18L3 12L12 12L15 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>ضمان حقيقي</h3>
+          <p>ضمان يصل إلى سنتين على جميع القطع مع دعم فني مباشر طوال فترة الضمان.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"><rect x="2" y="7" width="26" height="18" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M9 7V5C9 3.89543 9.89543 3 11 3H19C20.1046 3 21 3.89543 21 5V7" stroke="currentColor" stroke-width="1.5"/><circle cx="15" cy="16" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>توصيل سريع</h3>
+          <p>شحن لجميع 58 ولاية خلال 24-48 ساعة مع تعبئة احترافية مضادة للصدمات.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M15 3C8.37258 3 3 8.37258 3 15C3 21.6274 8.37258 27 15 27C21.6274 27 27 21.6274 27 15C27 8.37258 21.6274 3 15 3Z" stroke="currentColor" stroke-width="1.5"/><path d="M15 9V15L18 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>دعم فني مستمر</h3>
+          <p>فريق فني متخصص للإجابة على استفساراتك ومساعدتك في التركيب والتجميع مجاناً.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo">Nex<span class="accent">Gen</span></span>
+          <p class="footer-desc">أكبر متجر لقطع الكمبيوتر وأجهزة القيمنق في الجزائر.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="TikTok">TK</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>الأقسام</h4>
+          <a href="#">حواسيب محمولة</a>
+          <a href="#">كروت شاشة</a>
+          <a href="#">معالجات</a>
+          <a href="#">تجميعات</a>
+          <a href="#">ملحقات</a>
+        </div>
+        <div class="footer-col">
+          <h4>المساعدة</h4>
+          <a href="#">الضمان</a>
+          <a href="#">الشحن</a>
+          <a href="#">الاسترجاع</a>
+          <a href="#">اتصل بنا</a>
+        </div>
+        <div class="footer-col">
+          <h4>طرق الدفع</h4>
+          <div class="payment-tags">
+            <span>CCP</span>
+            <span>Baridimob</span>
+            <span>عند الاستلام</span>
+          </div>
+          <div class="footer-contact">
+            <span>contact@nexgen.dz</span>
+            <span>+213 659 843 187</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2026 NexGen Store</div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/213659843187" target="_blank" rel="noopener" class="wa-float" aria-label="واتساب">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
