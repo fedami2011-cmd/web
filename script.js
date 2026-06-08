@@ -11,7 +11,7 @@
       price: 180000,
       oldPrice: 210000,
       badge: '-14%',
-      image: 'https://placehold.co/400x300/0d172e/00f2ff?text=ASUS+ROG+Strix&font=raleway',
+      image: 'images/asus-rog-laptop.jpg',
       tags: 'asus rog strix scar لابتوب حاسوب محمول'
     },
     {
@@ -20,7 +20,7 @@
       price: 150000,
       oldPrice: 175000,
       badge: '-14%',
-      image: 'https://placehold.co/400x300/0d172e/00f2ff?text=Lenovo+Legion+Pro&font=raleway',
+      image: 'images/lenovo-legion-laptop.jpg',
       tags: 'lenovo legion pro لابتوب حاسوب محمول'
     },
     {
@@ -29,7 +29,7 @@
       price: 220000,
       oldPrice: null,
       badge: 'جديد',
-      image: 'https://placehold.co/400x300/0d172e/00f2ff?text=RTX+4080+Super&font=raleway',
+      image: 'images/rtx-4080-gpu.jpg',
       tags: 'nvidia rtx 4080 super كرت شاشة gpu'
     },
     {
@@ -38,7 +38,7 @@
       price: 95000,
       oldPrice: 110000,
       badge: '-14%',
-      image: 'https://placehold.co/400x300/0d172e/00f2ff?text=AMD+Ryzen+9&font=raleway',
+      image: 'images/amd-ryzen-cpu.jpg',
       tags: 'amd ryzen 9 7950x3d معالج cpu'
     },
     {
@@ -47,7 +47,7 @@
       price: 350000,
       oldPrice: null,
       badge: 'الأفضل',
-      image: 'https://placehold.co/400x300/0d172e/00f2ff?text=Flagship+Build&font=raleway',
+      image: 'images/flagship-pc-build.jpg',
       tags: 'تجميعة درجة أولى flagship build pc desktop'
     },
     {
@@ -56,7 +56,7 @@
       price: 110000,
       oldPrice: 130000,
       badge: '-15%',
-      image: 'https://placehold.co/400x300/0d172e/00f2ff?text=Budget+Build&font=raleway',
+      image: 'images/budget-pc-build.jpg',
       tags: 'تجميعة اقتصادية budget build pc desktop'
     },
     {
@@ -65,7 +65,7 @@
       price: 120000,
       oldPrice: 145000,
       badge: '-17%',
-      image: 'https://placehold.co/400x300/0d172e/00f2ff?text=ROG+OLED+Monitor&font=raleway',
+      image: 'images/rog-oled-monitor.jpg',
       tags: 'شاشة asus rog swift oled monitor 4k'
     },
     {
@@ -74,7 +74,7 @@
       price: 15000,
       oldPrice: 18500,
       badge: '-19%',
-      image: 'https://placehold.co/400x300/0d172e/00f2ff?text=Logitech+Superlight+2&font=raleway',
+      image: 'images/logitech-mouse.jpg',
       tags: 'ماوس logitech g pro superlight mouse wireless'
     }
   ];
